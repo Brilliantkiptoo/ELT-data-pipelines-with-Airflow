@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    database: postgres
+    schema: public
+    tables:
+      - name: nsw_lga_suburb
+      - name: nsw_lga_code
+      - name: all_month_lsiting
+      - name: census_g01_nsw_lga
+      - name: census_g02_nsw_lga
